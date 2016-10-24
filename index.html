@@ -1,0 +1,113 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CV (Curriculum Vitae, Resume) by Maksym Bendeberia. Python Remote Developer.</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet" type="text/css">
+    <script src="scripts/modernizr.js"></script>
+  </head>
+  <body ng-app="resumeApp">
+  <section class="container" ng-controller="resumeController">
+    <header>
+      <div class="row">
+        <div class="col-md-4 user-img">
+          <img ng-src="{{data.basics.imgurl}}" class="">
+        </div>
+        <div class="col-md-6 header-cont">
+          <h1>{{data.basics.name}}</h1>
+          <h3><a href="mailto:{{data.basics.email}}">{{data.basics.email}}</a></h3>
+          <h3><a href="{{data.basics.website}}">{{data.basics.website}}</a></h3>
+          <h3>{{data.basics.mobile}}</h3>
+          <h3><a href="#">viber:{{data.basics.viber}}</a></h3>
+          <blockquote>{{data.basics.quote}}</blockquote>
+        </div>
+      </div>
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-69573811-5', 'auto');
+        ga('send', 'pageview');
+
+      </script>
+    </header>
+    <section class="page-body">
+      <section class="workexpirence info-block">
+         <h4>Work Experience</h4>
+         <div class="row">
+         <div class="col-md-1"></div>
+         <div class="col-md-11">
+           <ul class="info-list">
+              <li ng-repeat="item in data.work">
+                <span><b>{{item.company}}</b></span> 
+                {{item.year}}
+                <ul class="info-list">
+                  <li ng-repeat="project in item.projects">
+                    <span>
+                      {{project.role}}
+                    </span>
+                    <span>
+                      {{project.place}}
+                    </span> 
+                      <ul class="info-list">
+                        <li ng-repeat="descr in project.desc" class="project-description">
+                          <span>
+                            {{descr}}
+                          </span> 
+                        </li>
+                      </ul>
+                  </li>
+                </ul>
+              </li>
+           </ul>
+         </div>
+         </div>
+      </section>
+      <section class="skills info-block">
+        <h4>Professional Skills</h4>
+        <div class="row">
+          <div class="col-md-1"></div>
+         <div class="col-md-11">
+           <ul class="info-list">
+              <li ng-repeat="skill in data.skills">
+                <span>
+                  {{skill}}
+                </span> 
+           </ul>
+         </div>
+        </div>
+      </section>
+      <section class="education info-block">
+         <h4>Education</h4>
+         <div class="row">
+         <div class="col-md-1"></div>
+         <div class="col-md-11">
+         <ul class="info-list">
+            <li ng-repeat="item in data.educaiton"><span>{{item.year}}</span> {{item.school}}</li>
+         </ul>
+         </div>
+         </div>
+      </section>
+    </section>
+  </section>
+
+
+
+
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+        <script src="scripts/main.js"></script>
+</body>
+</html>

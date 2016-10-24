@@ -1,0 +1,122 @@
+{
+  "head": {
+    "title": "CV (Curriculum Vitae, Resume) by Maksym Bendeberia. Python/PHP Remote Developer."
+  },
+  "basics": {
+    "name": "Tetyana Puzyrchenko",
+    "email": "tanyapuzyrchenko@mail.ru",
+    "website": "",
+    "mobile": "+35795123245",
+    "viber": "+380637273745",
+    "imgurl": "images/user.jpg",
+    "quote": "" 
+  },
+  "educaiton": [
+    {
+      "year": "2009-2015",
+      "school": "Lviv Ivan Franko National University/Faculty of Geography/Speciality \"Bachelor of Ecology\""
+    },
+    {
+      "year": "2007-2008",
+      "school": "Lviv Small Academy/ Psychology course"
+    }
+  ],
+  "work": [
+    {
+      "year": "04.2016 - present",
+      "company": "Travel company TUI and Attica Holidays ",
+      "projects": [
+        {
+          "role": "Guide",
+          "place": "Larnaca, Cyprus",
+          "desc": [
+			"customer care (problem solving, providing  necessary information)",
+      "organization of transfers",
+      "advertisement and sale of excursions and other services",
+      "conducting tours for families with children." 
+                  ]
+        }
+      ]
+    },
+    {
+      "year": "09.2011- 05.2015 ",
+      "company": "Travel company \"AKKORD TOUR\" ",
+      "projects": [
+        {
+          "role": "Tour leader, guide",
+          "place": "Lviv, Ukraine",
+          "desc": [
+      "escort in Europe bus tours (time management, customer care, providing  information about countries)",
+      "problem solving and tour assistance in cases of force majeure",
+      "sale of optional tours, advertisement  the company's services, documentation",
+      "the creation of new optional tours and excursions, search for new sources of revenue for the company",
+      "conduction and organization of  trainings for Akkord tour staff."
+                  ]
+        }
+      ]
+    },
+    {
+      "year": "01.2011- 05.2012",
+      "company": "The international organization AIESEC",
+      "projects": [
+        {
+          "role": "Volunteer",
+          "place": "Lviv, Ukraine",
+          "desc": [
+            "organization of educational and social activities, work with foreign volunteers."
+          ]
+        }
+      ]
+    },
+    {
+      "year": "09.2010-04.2011",
+      "company": "Online magazine  D'EPATE",
+      "projects": [
+        {
+          "role": "Journalist",
+          "place": "Lviv, Ukraine",
+          "desc": [
+            
+          ]
+        }
+      ]
+    }
+  ],
+  "skills": [
+    "Strong problem solving skills",
+    "Excellent organizational and time management skills",
+    "Stress resistance, highly adaptable, positive, diplomatic",
+    "Hard-working, wide experience of working with different people, including people with special needs",
+    "Able to give detailed and excellent service to clients",
+    "Excellent interpersonal skills, knowledge of psychology",
+    "Reliable and responsible."
+  ],
+  "personalskills": [
+    {
+      "name": "English",
+      "value": "85"
+    }
+  ],
+  "socialprofiles": [
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/jogspokoen/",
+      "icon": "socicon-instagram"
+    },
+    {
+      "name": "VK",
+      "url": "https://vk.com/jogspokoen",
+      "icon": "socicon-vkontakte"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "http://linkedin.com/in/jogspokoen",
+      "icon": "socicon-linkedin"
+    },
+    {
+      "name":"GoodReads",
+      "url": "https://www.goodreads.com/jogspokoen",
+      "icon":"socicon-goodreads"
+    }
+  ]
+}

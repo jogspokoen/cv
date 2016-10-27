@@ -7145,6 +7145,7 @@ blockquote {
 .info-list li span {
   display: inline-block;
   margin-right: 60px;
+  list-style: none;
 }
 .skill-block {
   text-align: center;

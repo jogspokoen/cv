@@ -1,192 +1,226 @@
 {
-  "head": {
-    "title": "CV (Curriculum Vitae, Resume) by Maksym Bendeberia. Python/PHP Remote Developer."
-  },
-  "basics": {
-    "name": "Maksym Bendeberia",
-    "email": "maka.zm@gmail.com",
-    "website": "https://maka.co.ua",
-    "mobile": "+48792687031",
-    "skype": "jogspokoen",
-    "imgurl": "images/user.png",
-    "quote": "Python developer." 
-  },
-  "educaiton": [
-    {
-      "year": "2007 - 2011",
-      "school": "National Pedagogical University"
-    }
-  ],
-  "work": [
-    {
-      "year": "2016.04 - 2016.08",
-      "company": "Rebelmouse, Python/Django Developer",
-      "projects": [
-        {
-          "name": "Rebelmouse",
-          "desc": [
-			"Maintaining core app with XML/XSD stucture of internal modules",
-			"Refactoring and creating new internal modules with processing handlers.",
-			"Creating documentaton for each created module (using Redmine and Confluence).",
-			"Setting up new application instances.",
-			"Refactor existed modules to be covered with unit and integration tests.",
-			"Refactoring and maintainance of different modules, responsible for interaction with various of 3rd party services: GitHub, MailChimp, Social Networks (Twitter, Facebook, Instagram).",
-			"Improving integraton between application layers (internal data API/model/processing/render layers)",
-			"Investiagating and fixing reported bugs" 
-                  ],
-          "url": "http://rebelmouse.com"
-        }
-      ]
+    "head": {
+        "title": "CV (Curriculum Vitae, Resume) by Hanna Trotsenko. Junior QA Tester."
     },
-    {
-      "year": "2012.12 - 2016.03",
-      "company": "Ortnec LTD (Cyprus, Limassol), Python Developer",
-      "projects": [
-        {
-          "name": "Eurorevenue",
-          "desc": [
-                    "Developed and supported 30+ sites network with different access levels",
-                    "Upgraded NATS (content and analytics management system) integration",
-                    "Upgraded and supported project with using CDN services",
-                    "Created custom analytics reports",
-                    "Built postbacks routing system",
-                    "Built custom mailing utilities",
-                    "Supported billing systems integrations",
-                    "Integrated security and anti-fraud solutions into project"
-                  ],
-          "url": "http://eurorevenue.com"
-        }
-      ]
+    "basics": {
+        "name": "Hanna Trotsenko",
+        "email": "trotsenkoanyta@gmail.com",
+        "mobile": [
+            "+380632627220",
+            "+380954467528"
+        ],
+        "skype": "anyta_bubochka",
+        "imgurl": "https://vk.com/images/error404.png",
+        "quote": "Junior QA Tester"
     },
-    {
-      "year": "2012.05 - 2012.12",
-      "company": "Zfort (Ukraine, Kharkiv), PHP Developer",
-      "projects": [
+    "Summary": [
+        "Hello,my name is Hanna and I'm looking for a position Junior QA Tester.",
+        "A few words about myself. I have passed course of Software Testing including practice with real projects (development of test plan, checklist generation, test case generation, test case execution, bug report) and basic training in Mobile Applications Testing and Games Testing (bug reports generation). The types of software testing that I used in practice: manual testing, black box testing, positive and negative testing, acceptance testing, ad-hoc, UI Testing, compatibility testing, localization testing, usability testing, functional testing.I have theoretical knowledge about next types of software testing: white box and gray box testing, unit testing, integrated testing, automatic testing, security testing, stress, stability, volume and performance testing.The test design techniques that I used: equivalence partitioning, boundary value analysis, error guessing. Also I have basic knowledge in HTML, CSS, SQL.In addition, I have higher technical education, think analytically, in most cases motivated by logic and common sense.I have strong analytical skills, self motivated, communicative, friendly, well organized, teachable."
+    ],
+    "education": [
         {
-          "name": "Alessandro / Tweezerman",
-          "desc": [
-            "cross-domain shopping cart solution"
-          ],
-          "url": "http://www.tweezermanprofessional.com"
+            "year": "2008 - 2012",
+            "school": "National Academy of Internal Affairs, Kyiv",
+            "degree": "Specialist degree in Jurisprudence"
         },
         {
-          "name": "16brands",
-          "desc": [
-            "implemented re-design"
-          ],
-          "url": "http://16brands.com"
+            "year": "2004 - 2008",
+            "school": "National Technical University of Ukraine Kyiv Polytechnic Institute, Publishing and Printing Department",
+            "degree": "Bachelor's degree in Mechanical engineering"
         }
-      ]
-    }
-  ],
-  "skills": [
-    {
-      "name": "Python",
-      "icon": "devicon-python-plain",
-      "scale": "4"
-    },
-    {
-      "name": "Django",
-      "icon": "devicon-django-plain",
-      "scale": "4"
-    },
-    {
-      "name": "PHP",
-      "icon": "devicon-php-plain",
-      "scale": "4"
-    },
-    {
-      "name": "Linux",
-      "icon": "devicon-linux-plain",
-      "scale": "4"
-    },
-    {
-      "name": "Debian",
-      "icon": "devicon-debian-plain",
-      "scale": "4"
-    },
-    {
-      "name": "GIT",
-      "icon": "devicon-git-plain",
-      "scale": "4"
-    },
-    {
-      "name": "Nginx",
-      "icon": "devicon-nginx-original",
-      "scale": "4"
-    },
-    {
-      "name": "VIM",
-      "icon": "devicon-vim-plain",
-      "scale": "4"
-    },
-    {
-      "name": "PostgreSQL",
-      "icon": "devicon-postgresql-plain",
-      "scale": "4"
-    },
-    {
-      "name": "MySQL",
-      "icon": "devicon-mysql-plain",
-      "scale": "4"
-    },
-    {
-      "name": "JavaScript",
-      "icon": "devicon-javascript-plain",
-      "scale": "4"
-    },
-    {
-      "name": "React",
-      "icon": "devicon-react-original",
-      "scale": "4"
-    },
-    {
-      "name": "jQuery",
-      "icon": "devicon-jquery-plain",
-      "scale": "4"
-    },
-    {
-      "name": "HTML",
-      "icon": "devicon-html5-plain",
-      "scale": "4"
-    },
-    {
-      "name": "CSS",
-      "icon": "devicon-css3-plain",
-      "scale": "4"
-    },
-    {
-      "name": "Bootstrap",
-      "icon": "devicon-bootstrap-plain",
-      "scale": "4"
-    }
-  ],
-  "personalskills": [
-    {
-      "name": "English",
-      "value": "85"
-    }
-  ],
-  "socialprofiles": [
-    {
-      "name": "Instagram",
-      "url": "https://www.instagram.com/jogspokoen/",
-      "icon": "socicon-instagram"
-    },
-    {
-      "name": "VK",
-      "url": "https://vk.com/jogspokoen",
-      "icon": "socicon-vkontakte"
-    },
-    {
-      "name": "LinkedIn",
-      "url": "http://linkedin.com/in/jogspokoen",
-      "icon": "socicon-linkedin"
-    },
-    {
-      "name":"GoodReads",
-      "url": "https://www.goodreads.com/jogspokoen",
-      "icon":"socicon-goodreads"
-    }
-  ]
+    ],
+    "Professional development and courses": [
+        {
+            "year": "Sept. 2016 – Nov. 2016",
+            "school": "IT specialist training center Skillup",
+            "degree": "Software Testing (Web)"
+        },
+        {
+            "year": "Jan. 2017 – Feb. 2017",
+            "school": "QATestLab Training Center",
+            "degree": "Software Testing Fundamentals (web, mobile, games)"
+        }
+    ],
+    "Certificates": [
+        {
+            "year": "October 2016",
+            "Issued by": "IT specialist training center Skillup",
+            "specialization": "Basic WEB and SQL for software testing"
+        },
+        {
+            "year": "November 2016",
+            "Issued by": "IT specialist training center Skillup",
+            "specialization": "Software Testing"
+        },
+        {
+            "year": "January 2017",
+            "Issued by": "QATestLab Training Center",
+            "specialization": "Software Testing Fundamentals"
+        }
+    ],
+    "work": [
+        {
+            "year": "Jan. 2015 —Jan. 2017",
+            "company": "UniStock",
+            "position": "Project Manager (Executive Director)",
+            "projects": [
+                {
+                    "desc": [
+                        "manage the main web-site",
+                        "website content",
+                        "SEO",
+                        "detection errors on the website",
+                        "reporting about bugs to developers",
+                        "identify and description malfunctions of devices for further service",
+                        "recruitment of employees, supervise the work of staff",
+                        "control debt",
+                        "monthly reports to the founders"
+                    ],
+                    "url": "http://ytsenka.com/"
+                }
+            ]
+        },
+        {
+            "year": "May 2014 — Nov. 2014",
+            "company": "Logikan Group",
+            "position": "Recruiter",
+            "projects": [
+                {
+                    
+                    "desc": [
+                        "monitor web-sites to looking for the staff for different companies (several projects simultaneously)",
+                        "choose needed CVs, contact with job seekers, organize interview between employers and staff",
+                        "monitor results of the interview, to be sure in signing contract between employer and staff"
+                    ],
+                    "url": "http://logikan.com/"
+                }
+            ]
+        },
+        {
+            "year": "Sept. 2013 — Mar. 2014",
+            "company": "Fastiv District Council",
+            "position": "Director of Fastiv District Council Municipal Institution 'Archive of Fastiv district",
+            "projects": [
+                {
+                    "Position": "Director of Fastiv District Council Municipal Institution 'Archive of Fastiv district",
+                    "desc": [
+                        "accounting",
+                        "drafting statute documents",
+                        "consultations to companies’ liquidators",
+                        "correspondence with citizens",
+                        "networking with other government agencies to protect social interests of citizen"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": "Feb. 2010 — Apr. 2013",
+            "company": "Legal advisor"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Software Development Life Cycle",
+            "icon": "Software Development Life Cycle",
+            "scale": "4"
+        },
+        {
+            "name": "Software Testing Life Cycle",
+            "icon": "Software Testing Life Cycle",
+            "scale": "4"
+        },
+        {
+            "name": "Test plan generation",
+            "icon": "TestPlan",
+            "scale": "4"
+        },
+        {
+            "name": "Check lists generation",
+            "icon": "checklist",
+            "scale": "4"
+        },
+        {
+            "name": "Test Cases  generation",
+            "icon": "test case",
+            "scale": "4"
+        },
+        {
+            "name": "Bug Reports",
+            "icon": "Bug Report",
+            "scale": "4"
+        },
+        {
+            "name": "Jira",
+            "icon": "jira",
+            "scale": "4"
+        },
+        {
+            "name": "Mantis",
+            "icon": "mantis",
+            "scale": "4"
+        },
+        {
+            "name": "TestRail",
+            "icon": "TestRail",
+            "scale": "4"
+        },
+        {
+            "name": "TestLink",
+            "icon": "test-link",
+            "scale": "4"
+        },
+        {
+            "name": "HTML",
+            "icon": "html",
+            "scale": "4"
+        },
+        {
+            "name": "CSS",
+            "icon": "css",
+            "scale": "4"
+        },
+        {
+            "name": "SQL",
+            "icon": "SQL",
+            "scale": "4"
+        },
+        {
+            "name": "Scrum",
+            "icon": "Scrum",
+            "scale": "4"
+        },
+        {
+            "name": "Google Drive",
+            "icon": "Google Drive",
+            "scale": "4"
+        },
+        {
+            "name": "1С",
+            "icon": "1С",
+            "scale": "4"
+        },
+        {
+            "name": "Photoshop",
+            "icon": "Photoshop",
+            "scale": "4"
+        }
+    ],
+    "personalskills": [
+        {
+            "name": "English",
+            "value": "65"
+        }
+    ],
+    "socialprofiles": [
+        {
+            "name": "LinkedIn",
+            "url": "https://ua.linkedin.com/in/hanna-trotsenko-2805b912b",
+            "icon": "LinkedIn"
+        },
+        {
+            "name": "Facebook",
+            "url": "https://www.facebook.com/profile.php?id=100008351527896",
+            "icon": "facebook"
+        }
+    ]
 }

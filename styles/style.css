@@ -7111,6 +7111,7 @@ h3 {
 }
 .user-img img {
   margin-right: 30px;
+  max-width: 200px;
 }
 blockquote {
   color: #fff;

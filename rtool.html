@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+    <style type="text/css">
+        body {
+            background-color: #eee;
+            width: 400px;
+        }
+    </style>
+    <script type="text/javascript">
+        var r = [];
+        $(document).ready(function(){
+            $('input').on('change', function(){
+                if($(this)[0].checked){
+                    r.push($(this).next().text());
+                    //console.log(r);
+                    $('#t').val(r.join(', '))
+                }else{
+                    r.splice(r.indexOf($(this).next().text()), 1);
+                    $('#t').val(r.join(', '));
+                }
+                
+            });
+            $('#b').on('click', function(){
+                r = [];
+                $('#t').val(r.join(', '));
+                jQuery('input').prop('checked', false); 
+            })
+        });
+    </script>
+</head>
+<body>
+    <button id="b">CLEAR</button><br><br><br>
+<textarea id="t">
+    
+</textarea>
+<table><tr><td>
+<input type="checkbox">&nbsp;&nbsp;<label>.NET</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Python</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>FrontEnd</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>FullStack</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Java</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>PHP</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>React</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>QA (automation)</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>DevOps</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>AWS</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Docker</label><br>
+<br>
+<input type="checkbox">&nbsp;&nbsp;<label>.NET Framework</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Android</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Angular</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Ansible</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Apache</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>ASP .NET MVC</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Azure</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Backbone</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Bash</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>beautifulsoup</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Big Data</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Bitbucket</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>BSS</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Business Analyst</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>C#</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>C++</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>C</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>CentOS</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>CI / CD</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Cloud Network Engineer</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Confluence</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>CTO</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Dapper</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Dapper</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Data Analyst</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Data Engineer</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Data Science</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Debian</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Delphi</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Django</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Domino Lotus</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>ElasticSearch</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Embed</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Entity Framework</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>ERP</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>ESB</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Ext.js</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Flask</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Github</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Gitlab</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Glassfish</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Golang</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Google Cloud</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Gradle</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>grafana</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Grails</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Groovy</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Hadoop</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Hibernate</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Hyper-V</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>IIS</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Inforamtion Security</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>iOS</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>IoT developer</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Java Servlets</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Java</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>JavaScript</label><br>
+</td><td>
+<input type="checkbox">&nbsp;&nbsp;<label>Apache Hive</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Deep Learning</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Google BigQuery</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Google Datalab</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>HDFS</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>JBoss</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>JDBC</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Jenkins</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>JSF</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>JSP</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>JUnit</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Kafka</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>keras</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>keras</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Kibana</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Knockout.js</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Kotlin</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Kubernetes</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>LabView</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>LightGBM</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Linux</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Logstash</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Lua</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>LXC</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Machine Learning</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>MapReduce</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Maven</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Meteor.js</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>micro-services</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Mongo DB</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>MS SQL</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>MS VMM</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>MySQL</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Natural Language Processing (NLP)</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Network Architect</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Nginx</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>NodeJS</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>NumPy</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Objective C</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>OpenStack</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>OpenVZ</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Oracle</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Owncloud</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>pandas</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Perl</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>PHP</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>PosgreSQL</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Puppet</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>pyspark</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Python</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>QA (manual)</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>QlikView</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>R</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>RabbitMQ</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>React</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Redis</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Redmine</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Redux</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>REST</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Ruby</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>SAP</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>SCADA</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Scala</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>scikit-learn</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Selenium</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>SOAP</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Spark</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Splunk</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Spring Boot</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Spring MVC</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Spring</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>SQL</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>SQLAlchemy</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>SUSE</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Swift</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Swing</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Teamcity</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>tensorflow</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>TensorFlow</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Teradata</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Tomcat</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>tornado</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Tree.js</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>TypeScript</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>TypeScript</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>ubuntu</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>UI/UX</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Vagrant</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>VBA</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Velocity</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Vmware</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>VPN</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>WCF</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Web API</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Winform</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Xamarin</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>xgboost</label><br>
+<input type="checkbox">&nbsp;&nbsp;<label>Zabbix</label><br>
+</td></tr></table>
+</div></body></html>

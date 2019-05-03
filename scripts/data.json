@@ -1,0 +1,276 @@
+{
+  "head": {
+    "title": "CV (Curriculum Vitae, Resume) by Maksym Bendeberia. Python/PHP Remote Developer."
+  },
+  "basics": {
+    "name": "Maksym Bendeberia",
+    "email": "maksym@bendeberia.info",
+    "website": "https://bendeberia.info",
+    "mobile": "+48 792 687 031",
+    "skype": "jogspokoen",
+    "imgurl": "images/bendeberia.png",
+    "quote": ["Web application security researcher", " Automation wizard", "Kennismigrant"],
+    "citizenship": "Ukrainian",
+    "age": 30,
+    "birthdate": "May 31, 1988",
+    "summary": [
+      "Highly experienced in software development using Python",
+      "Highly experienced in web protocols",
+      "Experienced in building API's and web applications",
+      "Experienced in working with API's and databases",
+      "Experienced in working with continious integration",
+      "Efficient in solving business needs with custom automation tools.",
+      "Highly aware of automated unit-testing and integration testing",
+      "Information security researcher, penetration testing enthusiast",
+      "Enthusiastic, problem-solver, with the mindset of responsibility and learning"
+    ]
+  },
+  "educaiton": [
+    {
+      "year": "2007 - 2011",
+      "school": "National Pedagogical University"
+    }
+  ],
+  "work": [
+    {
+      "year": "April 2018 — present day",
+      "company": "Helloprint",
+      "description": "Online platform for printing",
+      "position": "Senior Python Developer",
+      "url": "https://jobs.helloprint.com",
+      "logo": "helloprint",
+      "stack": "Python, pandas, Flask, Djano, scrapy, Git, Gitlab CI, Docker",
+      "field": "IT : E-commerce : Printing Industry",
+      "location": "Rotterdam, Netherlands",
+      "responsibilities": [
+        "Build scalable API to wrap new structure for Printed products, as an integrated part of the new platform.",
+        "Automated data import process, reducing total import time from 3 days to 2.5 hours using pandas and extended ORM solution.",
+        "Developed API to provide a detailed overview of the critical part of the ordering process, combining data from different external sources, with lowest response time.",
+        "Developed and maintained several scrapers to populate information from external sources using API aside reverse-engineering and scraping technics."
+      ]
+    },
+    {
+      "year": "November 2016 — May 2018 (1 year 6 months)",
+      "company": "Ginger Payments",
+      "description": "Online payment service provider and platform",
+      "position": "Python Developer",
+      "url": "https://gingerpayments.com",
+      "logo": "ginger",
+      "stack": "Python, Flask, Linux, AWS, Elastic Beanstalk, DynamoDB, S3, SQS, Git, Atlassian, TDD, Jenkins, Docker",
+      "field": "IT : Finance and Payment Solutions",
+      "location": "Amsterdam, Netherlands",
+      "responsibilities": [
+        "Created automated API-level testing robot",
+        "Created custom database viewer as replacement of default AWS viewer, with focus on current business requirements.",
+        "Developed and maintaining merchant's onboarding for platform and payment methods",
+        "Developed and maintaining integration with third-party providers",
+        "Developed and maintaining financial reports generating flow",
+        "Reported several minor security issues (see recommendations section)"
+      ]
+    },
+    {
+      "year": "April 2016 — August 2016 (4 months)",
+      "company": "Rebelmouse",
+      "description": "Social publishing platform.",
+      "position": "Python/Django Developer",
+      "url": "https://www.rebelmouse.com",
+      "logo": "rebelmouse",
+      "stack": "Python, Django, Linux, Git, Atlassian, TDD, CI/CD",
+      "field": "IT : Content management",
+      "location": "Krakow, Poland",
+      "responsibilities": [
+        "Maintaining core app with XML/XSD stucture of internal modules",
+        "Refactoring and creating new internal modules with processing handlers.",
+        "Creating documentaton for each created module (using Redmine and Confluence).",
+        "Setting up new application instances.",
+        "Refactor existed modules to be covered with unit and integration tests.",
+        "Refactoring and maintainance of different modules, responsible for interaction with various of 3rd party services: GitHub, MailChimp, Social Networks (Twitter, Facebook, Instagram).",
+        "Improving integraton between application layers (internal data API/model/processing/render layers)",
+        "Investiagating and fixing reported bugs" 
+      ]
+    },
+    {
+      "year": "December 2012 — March 2016 (3 year 4 month)",
+      "company": "Ortnec LTD",
+      "field": "IT : E-commerce : Adult Industry",
+      "description": "Webmasters and traffic owners platform.",
+      "position": "Python Developer",
+      "url": "http://ortnec.com/",
+      "logo": "ortnec",
+      "stack": "Python, Linux, Git, PHP, MySQL, HTML, CSS, Atlassian",
+      "location": "Cyprus, Limassol",
+      "responsibilities": [
+        "Developed and supported 30+ sites network with different access levels",
+        "Upgraded NATS (content and analytics management system) integration",
+        "Upgraded and supported project with using CDN services",
+        "Created custom analytics reports",
+        "Built postbacks routing system",
+        "Built custom mailing utilities",
+        "Supported billing systems integrations",
+        "Integrated security and anti-fraud solutions into project"
+      ]
+    },
+    {
+      "year": "May 2012 — December 2012 (8 months)",
+      "company": "Alessandro / Tweezerman",
+      "description": "",
+      "position": "PHP Developer",
+      "url": "https://www.alessandro-international.com",
+      "logo": "zfort",
+      "stack": "PHP, MySQL, Git, HTML, CSS, Atlassian",
+      "field": "IT : E-commerce",
+      "location": "Ukraine, Kharkiv",
+      "responsibilities": [
+            "cross-domain shopping cart solution"
+      ]
+    },
+    {
+      "year": "May 2012 — December 2012 (8 months)",
+      "company": "16brands",
+      "description": "",
+      "position": "PHP Developer",
+      "url": "http://16brands.com/",
+      "logo": "zfort",
+      "stack": "PHP, MySQL, Git, HTML, CSS, Atlassian",
+      "field": "IT : Social networking",
+      "location": "Ukraine, Kharkiv",
+      "responsibilities": [
+            "implemented re-design"
+      ]
+    }
+  ],
+  "backend_skills": [
+    {
+      "name": "Python",
+      "icon": "devicon-python-plain",
+      "scale": "4"
+    },
+    {
+      "name": "pandas",
+      "icon": "",
+      "emoji": "📈",
+      "scale": "4"
+    },
+    {
+      "name": "Flask",
+      "emoji": "🌶",
+      "scale": "4"
+    },
+    {
+      "name": "Django",
+      "icon": "devicon-django-plain",
+      "scale": "4"
+    },
+    {
+      "name": "GIT",
+      "icon": "devicon-git-plain",
+      "scale": "4"
+    },
+    {
+      "name": "GitHub",
+      "icon": "devicon-github-plain",
+      "scale": "4"
+    },
+    {
+      "name": "GitLab",
+      "icon": "devicon-gitlab-plain",
+      "scale": "4"
+    },
+    {
+      "name": "MySQL",
+      "icon": "devicon-mysql-plain",
+      "scale": "4"
+    },
+    {
+      "name": "PostgreSQL",
+      "icon": "devicon-postgresql-plain",
+      "scale": "4"
+    },
+    
+    {
+      "name": "MongoDB",
+      "icon": "devicon-mongodb-plain",
+      "scale": "4"
+    },
+    {
+      "name": "Redis",
+      "icon": "devicon-redis-plain",
+      "scale": "4"
+    }
+  ],
+  "devops_skills": [
+    {
+      "name": "Linux",
+      "icon": "devicon-linux-plain",
+      "scale": "4"
+    },
+    {
+      "name": "Kali Linux",
+      "emoji": "🐉",
+      "scale": "4"
+    },
+    {
+      "name": "Burp Suite",
+      "emoji": "🤮",
+      "scale": "4"
+    },
+    {
+      "name": "Docker",
+      "icon": "devicon-docker-plain",
+      "scale": "4"
+    },
+    {
+      "name": "Mac OS X",
+      "icon": "devicon-apple-plain",
+      "scale": "4"
+    },
+    {
+      "name": "SSH",
+      "icon": "devicon-ssh-plain",
+      "scale": "4"
+    },
+    {
+      "name": "AWS",
+      "icon": "devicon-amazonwebservices-plain-wordmark",
+      "scale": "4"
+    },
+    {
+      "name": "Nginx",
+      "icon": "devicon-nginx-original",
+      "scale": "4"
+    },
+    {
+      "name": "VIM",
+      "icon": "devicon-vim-plain",
+      "scale": "4"
+    }
+  ],
+  "personalskills": [
+    {
+      "name": "English",
+      "value": "90"
+    }
+  ],
+  "socialprofiles": [
+    {
+      "name": "jogspokoen",
+      "url": "https://www.instagram.com/jogspokoen/",
+      "icon": "fa-instagram"
+    },
+    {
+      "name": "Maksym Bendeberia",
+      "url": "http://linkedin.com/in/jogspokoen",
+      "icon": "fa-linkedin"
+    },
+    {
+      "name":"jogspokoen",
+      "url": "https://www.goodreads.com/jogspokoen",
+      "icon":"fa-goodreads"
+    },
+    {
+      "name":"jogspokoen",
+      "url": "https://www.telegram.com/jogspokoen",
+      "icon":"fa-telegram"
+    }
+  ]
+}

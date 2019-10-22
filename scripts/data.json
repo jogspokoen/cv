@@ -33,13 +33,27 @@
   ],
   "work": [
     {
-      "year": "April 2018 — present day",
+      "year": "May 2019 — present day",
+      "company": "Mintlab",
+      "description": "Case management system for Dutch government organizations",
+      "position": "Senior Python Developer",
+      "url": "https://mintlab.nl",
+      "logo": "mintlab",
+      "stack": "Python, AWS, Docker, Django, Pyramid, Gitlab CI, Docker",
+      "field": "IT : Business management software",
+      "location": "Amsterdam, Netherlands",
+      "responsibilities": [
+        "Developed innovative integration platform"
+      ]
+    },
+    {
+      "year": "April 2018 — April 2019",
       "company": "Helloprint",
       "description": "Online platform for printing",
       "position": "Senior Python Developer",
       "url": "https://jobs.helloprint.com",
       "logo": "helloprint",
-      "stack": "Python, pandas, Flask, Djano, scrapy, Git, Gitlab CI, Docker",
+      "stack": "Python, pandas, Flask, Django, scrapy, Git, Gitlab CI, Docker",
       "field": "IT : E-commerce : Printing Industry",
       "location": "Rotterdam, Netherlands",
       "responsibilities": [
@@ -205,6 +219,16 @@
       "scale": "4"
     },
     {
+      "name": "AWS",
+      "icon": "devicon-amazonwebservices-plain-wordmark",
+      "scale": "4"
+    },
+    {
+      "name": "Docker",
+      "icon": "devicon-docker-plain",
+      "scale": "4"
+    },
+    {
       "name": "Kali Linux",
       "emoji": "🐉",
       "scale": "4"
@@ -215,33 +239,8 @@
       "scale": "4"
     },
     {
-      "name": "Docker",
-      "icon": "devicon-docker-plain",
-      "scale": "4"
-    },
-    {
       "name": "Mac OS X",
       "icon": "devicon-apple-plain",
-      "scale": "4"
-    },
-    {
-      "name": "SSH",
-      "icon": "devicon-ssh-plain",
-      "scale": "4"
-    },
-    {
-      "name": "AWS",
-      "icon": "devicon-amazonwebservices-plain-wordmark",
-      "scale": "4"
-    },
-    {
-      "name": "Nginx",
-      "icon": "devicon-nginx-original",
-      "scale": "4"
-    },
-    {
-      "name": "VIM",
-      "icon": "devicon-vim-plain",
       "scale": "4"
     }
   ],

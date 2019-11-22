@@ -159,7 +159,7 @@
     <p style="page-break-before: always"></p>
     <div class="clearfix bullets">
         <h3 class="cv-title">Skills</h3>
-        <div class="col-md-6 col-xs-6 col-sm-6">
+        <div class="col-md-4 col-xs-6 col-sm-12">
             <table class="table table-skills">
             <tr>
                 <th></th>
@@ -173,13 +173,27 @@
                 </tr>
             </table>
         </div>
-        <div class="col-md-6 col-xs-6 col-sm-6">
+        <div class="col-md-4 col-xs-6 col-sm-12">
             <table class="table table-skills">
                 <tr>
                     <th></th>
                     <th>Infrastructure</th>
                 </tr>
                 <tr ng-repeat="s in data.devops_skills">
+                    <td>
+                        <span class="{{s.icon}}">{{s.emoji}}</span>
+                    </td>
+                    <td>{{s.name}}</td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-md-4 col-xs-6 col-sm-12">
+            <table class="table table-skills">
+                <tr>
+                    <th></th>
+                    <th>AWS</th>
+                </tr>
+                <tr ng-repeat="s in data.aws_skills">
                     <td>
                         <span class="{{s.icon}}">{{s.emoji}}</span>
                     </td>
@@ -316,7 +330,7 @@
     ga('send', 'pageview');
 
 </script>
-<!-- vqp53eq488uh4d5 / AAD98ANAAW7GKv_g0gi6kVMSa -->
+<!--  -->
 <!--
       0. Ability to sign permanent contract at least at 2nd year
       1. Sense of humor as a part of a company culture

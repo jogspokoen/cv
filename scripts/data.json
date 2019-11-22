@@ -244,6 +244,78 @@
       "scale": "4"
     }
   ],
+  "aws_skills": [
+    {
+      "name": "EC2",
+      "icon": "devicon-amazonwebservices-plain-wordmark",
+      "scale": "4"
+    },
+    {
+      "name": "S3",
+      "icon": "devicon-amazonwebservices-plain-wordmark",
+      "scale": "4"
+    },
+    {
+      "name": "SQS",
+      "icon": "devicon-amazonwebservices-plain-wordmark",
+      "scale": "4"
+    },
+    {
+      "name": "DynamoDB",
+      "icon": "devicon-amazonwebservices-plain-wordmark",
+      "scale": "4"
+    },
+    {
+      "name": "RDS",
+      "icon": "devicon-amazonwebservices-plain-wordmark",
+      "scale": "4"
+    },
+    {
+      "name": "ElasticBeanstalk",
+      "icon": "devicon-amazonwebservices-plain-wordmark",
+      "scale": "4"
+    },
+    {
+      "name": "Lambda",
+      "icon": "devicon-amazonwebservices-plain-wordmark",
+      "scale": "4"
+    },
+    {
+      "name": "StepFunctions",
+      "icon": "devicon-amazonwebservices-plain-wordmark",
+      "scale": "4"
+    },
+    {
+      "name": "CloudWatch (Logs/Event rules)",
+      "icon": "devicon-amazonwebservices-plain-wordmark",
+      "scale": "4"
+    },
+    {
+      "name": "ECS (Fargate, ECR)",
+      "icon": "devicon-amazonwebservices-plain-wordmark",
+      "scale": "4"
+    },
+    {
+      "name": "CloudFormation (CDK)",
+      "icon": "devicon-amazonwebservices-plain-wordmark",
+      "scale": "4"
+    },
+    {
+      "name": "IAM",
+      "icon": "devicon-amazonwebservices-plain-wordmark",
+      "scale": "4"
+    },
+    {
+      "name": "AWS Secrets",
+      "icon": "devicon-amazonwebservices-plain-wordmark",
+      "scale": "4"
+    },
+    {
+      "name": "CloudSearch",
+      "icon": "devicon-amazonwebservices-plain-wordmark",
+      "scale": "4"
+    }
+  ],
   "personalskills": [
     {
       "name": "English",

@@ -9,7 +9,7 @@
     "mobile": "Cold calls are unwanted. Please use email",
     "skype": "jogspokoen",
     "imgurl": "images/bendeberia.png",
-    "quote": ["Web application security researcher", " Automation wizard", "Kennismigrant"],
+    "quote": ["Web application security researcher", "Automation wizard", "Python/AWS Contractor"],
     "citizenship": "Ukrainian",
     "age": 32,
     "birthdate": "May 31, 1988",
@@ -33,7 +33,7 @@
   ],
   "work": [
     {
-      "year": "May 2019 — present day",
+      "year": "May 2019 — April 2021",
       "company": "Mintlab",
       "description": "Case management system for Dutch government organizations",
       "position": "Senior Python Developer",
@@ -43,7 +43,11 @@
       "field": "IT : Business management software",
       "location": "Amsterdam, Netherlands",
       "responsibilities": [
-        "Developed innovative and flxeible integration platform Koppel.App, focused on (semi-) government applications, using top-edge technologies: AWS, serverless, containers, infrastructure as a code."
+        "Developed innovative and flxeible integration platform Koppel.App, focused on (semi-) government applications, using top-edge technologies: AWS, serverless, containers, infrastructure as a code.",
+        "Developed multiple connectors, used as input and output at the integration platform",
+        "Implemented several authorization options: JWT, token-based, 2FA",
+        "Developed an integration with Exact software for education-related organization",
+        "Developed the initial version of JSON-based language for entire koppeling description and data transformations"
       ]
     },
     {
